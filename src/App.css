@@ -1,9 +1,21 @@
-
-.App {
+/* .App {
   text-align: center;
-}
+} */
+
  body {
   background-image: url('../public/assets/background.jpg');
   background-size: cover;
-  /* opacity: 0.5; */
  }
+
+ .pageWrapper {
+  display: flex;
+ }
+
+ .left-section {
+  margin-top: 220px;
+  padding: 80px; 
+}
+
+.right-section {
+  padding: 20px;
+}
