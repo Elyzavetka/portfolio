@@ -2,6 +2,7 @@ import React from 'react';
 import 'tailwindcss/tailwind.css';
 import './App.css';
 import useTypewriter from 'react-typewriter-hook';
+import avatar from './avatar.jpg'
 
 
 const TypingText = () => {
@@ -30,7 +31,7 @@ const App = () => {
         </div>
       </div>
       <div className="right-section">
-        {/* Photo */}
+        <img src={avatar} alt=""/>
       </div>
     </div>
   );
