@@ -6,14 +6,17 @@ import useTypewriter from 'react-typewriter-hook';
 
 const TypingText = () => {
   const line1 = "Hi, I am Liza,";
-  const line2 = "full-stack software developer.";
+  const line2 = "Full-Stack Software Engineer";
+  const line3 = "based in London.";
   const typingLine1 = useTypewriter(line1);
   const typingLine2 = useTypewriter(line2);
+  const typingLine3 = useTypewriter(line3);
 
   return (
     <div>
-      <h1 className="">{typingLine1}</h1>
-      <h2 className="">{useTypewriter(typingLine2, { delay: 20 })}</h2>
+      <p className="line1">{typingLine1}</p>
+      <p className="line2">{useTypewriter(typingLine2, { delay: 10 })}</p>
+      <p className="line3">{useTypewriter(typingLine3, { delay: 80 })}</p>
     </div>
   );
 };

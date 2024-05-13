@@ -6,14 +6,64 @@
   background-image: url('../public/assets/background.jpg');
   background-size: cover;
  }
+ /* .fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* .arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 
  .pageWrapper {
   display: flex;
  }
 
  .left-section {
-  margin-top: 220px;
-  padding: 80px; 
+  margin-top: 140px;
+  padding: 90px; 
+  
+}
+
+.line1 {
+  font-family: "Fredericka the Great", serif;
+  font-size: 52px;
+  font-weight: 400;
+  font-style: regular;
+  line-height: 0.4;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.4px black; 
+}
+
+.line2 {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 0.4;
+  color: rgb(0, 0, 0);
+}
+
+.line3 {
+  font-family: "Fredericka the Great", serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: regular;
+  line-height: 0.4;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.4px black; 
 }
 
 .right-section {
