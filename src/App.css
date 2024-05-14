@@ -55,7 +55,7 @@ body {
 }
 .right-section img {
   max-width: 50%;
-  aspect-ratio: 1 / 1; /* Сохраняет пропорции изображения */
+  aspect-ratio: 1 / 1; 
   object-fit: cover;
   border-radius: 50%;
 }
