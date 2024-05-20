@@ -5,15 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 import avatar from "./avatar.jpg";
 
 const TypingText = () => {
-  // const line1 = "Hi, I am Liza,";
-  // const line2 = "Full-Stack Software Engineer";
-  // const line3 = "based in London.";
-  // const typingLine1 = useTypewriter(line1);
-  // const typingLine2 = useTypewriter(line2, { delay: 800 });
-  // const typingLine3 = useTypewriter(line3);
 
   return (
-    <div>
+    <div className="typing-text">
       <TypeAnimation
         sequence={[
           "Hi I am Liza",
@@ -43,11 +37,6 @@ const TypingText = () => {
         className="line3"
         cursor={false}
       />
-
-      {/* <p className="line1">{typingLine1}</p> */}
-      {/* <p className="line2">{useTypewriter(typingLine2, { delay: 800 })}</p> */}
-      {/* <p className="line2">{typingLine2}</p> */}
-      {/* <p className="line3">{useTypewriter(typingLine3, { delay: 80 })}</p> */}
     </div>
   );
 };
@@ -60,7 +49,7 @@ const App = () => {
           <TypingText />
         </div>
       </div>
-      <div className="right-section">{/* <img src={avatar} alt=""/> */}</div>
+      <div className="right-section"><img src={avatar} alt=""/></div>
     </div>
   );
 };

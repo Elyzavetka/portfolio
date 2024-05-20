@@ -1,21 +1,56 @@
 body {
-  background-image: url('../public/assets/background1.jpg');
+  background-image: url("../public/assets/background1.jpg");
   background-size: cover;
- }
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
- .pageWrapper {
-  background-color: rgba(145, 77, 21, 0.06)!important;
-  background-size: cover;
- }
-
- .pageWrapper {
+.pageWrapper {
   display: flex;
- }
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* padding: 20px;  */
+  background-color: rgba(145, 77, 21, 0.06) !important;
+}
 
- .left-section {
-  margin-top: 120px;
-  padding: 90px; 
-  
+.left-section {
+  flex: 1;
+  display: flex;
+  margin-left: 40px; /* Увеличиваем отступ от края страницы слева */
+  margin-top: 40px; /* Поднимаем надпись немного вверх */
+  flex-direction: column;
+  align-items: flex-start; /* Изменяем выравнивание по горизонтали */
+  padding: 20px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section img {
+  max-width: 70%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.typing-text {
+  height: 100px;  
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+.line1,
+.line2,
+.line3 {
+  margin: 7px 0;
 }
 
 .line1 {
@@ -23,20 +58,13 @@ body {
   font-size: 54px;
   font-weight: 400;
   font-style: regular;
-  line-height: 0.4;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: 0.4px black; 
-  /* color: rgb(95, 57, 1);
-  -webkit-text-stroke: 0.4px rgb(151, 131, 5);  */
+  -webkit-text-stroke: 0.4px black;
 }
 
 .line2 {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 46px;
   font-weight: 700;
-  line-height: 0.4;
+  font-size: 46px;
   color: rgb(0, 0, 0);
 }
 
@@ -44,18 +72,6 @@ body {
   font-family: "Fredericka the Great", serif;
   font-size: 38px;
   font-weight: 400;
-  font-style: regular;
-  line-height: 0.4;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: 0.4px black; 
-}
-
-.right-section {
-  padding: 60px;
-}
-.right-section img {
-  max-width: 50%;
-  aspect-ratio: 1 / 1; 
-  object-fit: cover;
-  border-radius: 50%;
+  -webkit-text-stroke: 0.4px black;
 }
