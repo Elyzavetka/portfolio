@@ -1,5 +1,5 @@
 body {
-  background-image: url("../public/assets/background1.jpg");
+  background-image: url("../../../public/assets/background1.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -91,6 +91,8 @@ body {
   font-size: 30px;
   cursor: pointer;
   transition: color 0.3s;
+  /* color: #002d44; */
+  color: #01354f;
 }
 
 .app-container {
@@ -102,4 +104,10 @@ body {
 
 .contact-icon:hover {
   color: #0073b1;
+}
+.navbar {
+  color: #01354f;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px; /* Внутренний отступ */
 }

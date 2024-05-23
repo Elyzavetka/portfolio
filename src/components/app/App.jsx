@@ -1,10 +1,12 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import "./App.css";
-import avatar from "./avatar.jpg";
-import TypingText from "./components/TypingText";
-import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
+import "../../index.css";
+// import avatar from "./assets/avatar.jpg";
+import TypingText from "../TypingText";
+import AboutMe from "../AboutMe";
+import Contact from "../Contact";
+import Navbar from "../Navbar";
 
 const App = () => {
   return (
@@ -12,12 +14,13 @@ const App = () => {
       <div className="pageWrapper">
         <div className="left-section">
           <div className="">
+            {/* <Navbar /> */}
             <TypingText />
-            <AboutMe />
+            {/* <AboutMe /> */}
           </div>
         </div>
         <div className="right-section">
-          <img src={avatar} alt="" />
+          <img src="/assets/avatar.jpg" alt="" />
         </div>
       </div>
       <Contact />
