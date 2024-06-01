@@ -1,9 +1,10 @@
 body {
-  background-image: url("../../../public/assets/background1.jpg");
+  background-image: url("../../../public/assets/watercolorPapper_1.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: rgba(145, 77, 21, 0.06) !important;
 }
 
 .pageWrapper {
@@ -13,7 +14,7 @@ body {
   height: 100vh;
   /* margin-left: 40px; */
   /* padding: 20px;  */
-  background-color: rgba(145, 77, 21, 0.06) !important;
+  /* background-color: rgba(145, 77, 21, 0.06) !important; */
 }
 
 .left-section {
@@ -105,9 +106,9 @@ body {
 .contact-icon:hover {
   color: #0073b1;
 }
-.navbar {
+/* .navbar {
   color: #01354f;
   font-size: 20px;
   font-weight: 400;
-  padding: 20px; /* Внутренний отступ */
-}
+  padding: 20px; 
+/* }  */

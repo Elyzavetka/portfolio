@@ -11,10 +11,12 @@ import Navbar from "../Navbar";
 const App = () => {
   return (
     <div className="app-container">
+      <div>
+        <Navbar />
+      </div>
       <div className="pageWrapper">
         <div className="left-section">
           <div className="">
-            {/* <Navbar /> */}
             <TypingText />
             {/* <AboutMe /> */}
           </div>
