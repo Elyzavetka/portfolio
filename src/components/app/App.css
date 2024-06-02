@@ -5,6 +5,8 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: rgba(145, 77, 21, 0.06) !important;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .pageWrapper {
@@ -86,6 +88,10 @@ body {
   justify-content: center;
   gap: 10px;
   padding-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-icon {
