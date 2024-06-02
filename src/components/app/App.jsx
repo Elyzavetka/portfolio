@@ -4,7 +4,7 @@ import "./App.css";
 import "../../index.css";
 // import avatar from "./assets/avatar.jpg";
 import TypingText from "../TypingText";
-import AboutMe from "../AboutMe";
+// import AboutMe from "../AboutMe";
 import Contact from "../Contact";
 import Navbar from "../Navbar";
 
