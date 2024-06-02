@@ -84,15 +84,14 @@ body {
 .contact-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
+  gap: 10px;
+  padding-bottom: 30px;
 }
 
 .contact-icon {
   font-size: 30px;
   cursor: pointer;
   transition: color 0.3s;
-  /* color: #002d44; */
   color: #01354f;
 }
 
@@ -105,6 +104,11 @@ body {
 
 .contact-icon:hover {
   color: #0073b1;
+}
+.contact-email {
+  padding-top: 5px;
+  color: #01354f;
+  font-size: 18px;
 }
 /* .navbar {
   color: #01354f;
