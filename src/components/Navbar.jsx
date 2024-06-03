@@ -13,7 +13,10 @@ const Navbar = () => {
           </a>
         </li>
         <li class="mr-6 text-xl" style={{ color: "#01354f" }}>
-          <a href="#projects" className="hover:text-[#0073b1]">
+          <a
+            href="https://github.com/Elyzavetka"
+            className="hover:text-[#0073b1]"
+          >
             Projects
           </a>
         </li>
@@ -22,11 +25,11 @@ const Navbar = () => {
             Experience
           </a>
         </li>
-        <li class="mr-6 text-xl" style={{ color: "#01354f" }}>
+        {/* <li class="mr-6 text-xl" style={{ color: "#01354f" }}>
           <a href="#contact" className="hover:text-[#0073b1]">
             Contact
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
     // <nav className="navbar">
