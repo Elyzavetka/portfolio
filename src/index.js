@@ -38,4 +38,15 @@ window.addEventListener("mousemove", function (e) {
   );
 });
 
+// document.querySelectorAll("a, .social-icon").forEach((item) => {
+//   item.addEventListener("mouseover", () => {
+//     cursorDot.classList.add("cursor-hidden");
+//     cursorOutline.classList.add("cursor-hidden");
+//   });
+//   item.addEventListener("mouseleave", () => {
+//     cursorDot.classList.remove("cursor-hidden");
+//     cursorOutline.classList.remove("cursor-hidden");
+//   });
+// });
+
 reportWebVitals();
