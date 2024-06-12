@@ -18,7 +18,7 @@ const TypingText = () => {
         cursor={false}
       />
       <TypeAnimation
-        sequence={[2500, "based in London"]}
+        sequence={[2500, "📍based in London"]}
         wrapper="p"
         speed={50}
         className="line3"
