@@ -2,11 +2,13 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import "./App.css";
 import "../../index.css";
-// import avatar from "./assets/avatar.jpg";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TypingText from "../TypingText";
 // import AboutMe from "../AboutMe";
 import Contact from "../Contact";
 import Navbar from "../Navbar";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
 
 const App = () => {
   return (
