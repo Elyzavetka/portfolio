@@ -1,10 +1,11 @@
 import React from "react";
 import TypingText from "../components/TypingText";
-import Contact from "../pages/Contact";
+import Contact from "../components/Contact";
+import "./home.styles.css";
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="pageWrapper">
       <div className="left-section">
         <TypingText />
         <p className="text-section">
