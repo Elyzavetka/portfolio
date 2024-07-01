@@ -13,7 +13,7 @@
 }
 
 .experience-item {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .experience-item h3 {
@@ -26,6 +26,7 @@
 .experience-position {
   font-size: 1.2em;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .experience-duration {
@@ -41,5 +42,5 @@
 }
 
 .responsibilities-list li {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }

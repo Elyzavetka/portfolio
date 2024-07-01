@@ -1,11 +1,25 @@
 import React from "react";
 import "./Experience.css";
+import Contact from "../components/Contact";
 
 const Experience = () => {
   return (
     <div className="pageWrapper">
       <div className="experience-section">
         <h1 className="header-text">Work experience</h1>
+        <div className="experience-item">
+          <h3>FoxmindEd, London, United Kingdom (Remote)</h3>
+          <p className="experience-duration">Apr 2024 – Now</p>
+          <p className="experience-position">Intern Front-End Developer</p>
+          <ul className="responsibilities-list">
+            <li>
+              Taking part in a group project for a Cat Shelter App. Tech stack:
+              React, Typescript, Redux, Saga, Python, Django, CSS BEM, Material
+              UI, customize Themes, PostgreSQL, AWS s3, Docker, Yarn, Pixel
+              Perfect, Agile, Scrum, sprints.
+            </li>
+          </ul>
+        </div>
         <div className="experience-item">
           <h3>Makers Academy, London, United Kingdom</h3>
           <p className="experience-duration">Sep 2023 – Jan 2024</p>
@@ -61,6 +75,7 @@ const Experience = () => {
         </div>
         {/* Добавьте другие работы в аналогичном формате, если необходимо */}
       </div>
+      {/* <Contact /> */}
     </div>
   );
 };
