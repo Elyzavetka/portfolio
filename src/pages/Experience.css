@@ -9,7 +9,10 @@
   color: #01354f;
 }
 .experience-section {
-  margin: 0 85px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: 20px;
+  padding-bottom: 15 px;
 }
 
 .experience-item {
