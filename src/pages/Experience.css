@@ -1,0 +1,45 @@
+/* .experience-section {
+  margin: 85px;
+  font-size: 18px;
+} */
+.header-text {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #01354f;
+}
+.experience-section {
+  margin: 0 85px;
+}
+
+.experience-item {
+  margin-top: 40px;
+}
+
+.experience-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: #01354f;
+}
+
+.experience-position {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.experience-duration {
+  color: #737373;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.responsibilities-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.responsibilities-list li {
+  margin-bottom: 5px;
+}
